@@ -1,0 +1,275 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Monsterrat', sans-serif;
+    background: url(paintings/moon.jpg) !important;
+    background:  no-repeat center center fixed;
+    -webkit-background-size:  cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main-nav {
+	display: flex;
+    list-style: none;
+    font-size: 1.14em;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+	border:1px solid black;
+    padding: 8px 0 5px 0;
+}
+
+.navbar-static-top {
+    border: 1px solid black;
+}
+
+.navbarLogo {
+   height: 27px;
+   width: 27px;
+}
+
+.logoIcon {
+    height: 35px;
+    width: 35px;
+}
+ 
+ul {
+    margin: 0;
+}
+
+
+ li {
+    padding: 4px 30px 8px 30px;
+    align-self: center;
+}
+
+.push {
+   margin: 0 0 0 auto;
+}
+
+.rightElement {
+    margin: 0 32px 0  0;
+}
+
+.navA {
+    text-decoration: none;
+    color:  white;
+}
+
+li:hover {
+   transform: scale(1.1);
+}
+
+.navA:hover {
+   color: darkviolet;
+}
+
+.col {
+
+    margin: 0% 15% 0 15%;  
+    min-width: 70vw;
+    max-width: 70vw;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top: 0;
+    border-bottom: 0;
+    box-shadow: rgba(0,0,0) 0px 4px 10px;
+    webkit-box-shadow:rgba(0,0,0) 0px 4px 10px;
+    -moz-box-shadow: rgba(0,0,0) 0px 4px 10px;
+    -o-box-shadow: rgba(0,0,0) 0px 4px 10px;
+}
+
+.container {
+    max-height: 200vh;
+
+    align-self: center;
+}
+
+h1 {
+    font-size: 4vh;
+}
+
+p {
+    color: white;
+    font-size: 2.1vh;
+    margin: 0 10% 0% 10%;
+}
+
+#info {
+    margin-bottom: 2%;
+}
+
+ #aboutLogo {
+   height: 14vh;
+   width: 14vh;
+   border: 1.5px solid black;
+   border-radius: 100%;
+   background-color: indigo;
+   margin: 1.2% 0% 1% 0%;
+   object-fit: contain;
+}
+
+ #me {
+   height: 35vh;
+   width: 35%;
+   object-fit: contain;
+   border: 1px solid black;
+   background-image: none;
+   background-size: cover;
+   background-color: indigo;
+   border-width: 0.5px;
+}
+
+.aboutLink {
+    text-decoration: none;
+    color: darkviolet;
+    font-weight: 600;
+}
+
+.aboutLink:hover {
+    color: white;
+    font-weight: 400;
+}
+
+footer {
+    text-align: center;
+    justify-self: baseline;
+    background-color: indigo;  
+    font-family: 'Montserrat', sans-serif;
+    color:  white;
+    font-size: 1.73vh; 
+    padding: .5vh 0 .5vh 0;
+}
+
+@media only screen and (max-width: 1600px) {
+         p {
+        margin-bottom: 5%;
+
+        }
+
+}
+
+@media only screen and (max-width: 1300px) {
+    p {
+        margin-bottom: 5%;
+    }
+
+    #aboutLogo {
+        height: 11vh;
+        width: 11vh;
+        margin-top: 2%;
+        border: 1px solid black;
+    }
+
+    #me {
+        height: 22vh;
+        width: 26vh;
+        object-fit: contain;
+    }
+}
+
+
+@media only screen and (max-height: 1000px) {
+    body {
+        background-image: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .col {
+        max-width: 100vw;
+        margin: 0;
+    }
+
+    p {
+        margin: 0 5% 0 5%;
+    }
+
+    ul {
+        padding: 12;
+    }
+
+    li {
+        padding: 4px 12px 8px 12px;
+    }
+
+    .main-nav {
+        font-size: 1.05em;
+    }
+     .logoIcon {
+        height: 32px;
+        width: 32px;
+    }
+
+    .navbarLogo {
+        height: 25px;
+        width: 25px;
+    }
+
+    .rightElement {
+    margin: 0 12px 0  0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        padding: 0;
+    }
+
+    li {
+        padding: 1px 6px 0px 6px;
+    }
+
+    .main-nav {
+        font-size: .85em;
+    }
+
+    .logoIcon {
+        height: 27px;
+        width: 27px;
+    }
+
+    .navbarLogo {
+        height: 20px;
+        width: 20px;
+   }
+
+    .rightElement {
+        margin: 0;
+    }
+
+    body, html {
+        background-image: none;
+    }
+
+    .container {
+        margin: 0;
+        padding: 0;
+        max-height: 400vh;
+        min-height: 96vh;
+    }
+
+    .col {
+        margin: 0;
+    }
+
+      #smaller {
+        font-size: .77em; 
+        margin-bottom: 0;
+    }
+}

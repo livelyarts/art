@@ -1,0 +1,201 @@
+.main-nav {
+   display: flex;
+    list-style: none;
+    font-size: 1.14em;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-static-top {
+    padding: 8px 0 5px 0;
+    border: 1px solid black;
+}
+
+.navbarLogo {
+   height: 27px;
+   width: 27px;
+}
+
+.logoIcon {
+    height: 35px;
+    width: 35px;
+}
+ 
+ul {
+    margin: 0;
+}
+
+
+ li {
+    padding: 4px 30px 8px 30px;
+    align-self: center;
+}
+
+.push {
+   margin: 0 0 0 auto;
+}
+
+.rightElement {
+    margin: 0 32px 0  0;
+}
+
+a {
+    text-decoration: none;
+    color:  white;
+}
+
+li:hover {
+   transform: scale(1.1);
+}
+
+a:hover {
+   color: darkviolet;
+}
+
+footer {
+    text-align: center;
+    justify-self: baseline;
+    background-color: indigo;  
+    font-family: 'Montserrat', sans-serif;
+    color:  white;
+    font-size: 1.73vh; 
+    padding: .5vh 0 .5vh 0;
+}
+
+h3 {
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8vh ;
+}
+
+form {
+    background-color: rgba(75, 0, 130, 0.8);
+    display: flex;
+    flex-direction: column;
+    padding: 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    max-height: 80vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form h3 {
+    color: white;
+    margin-bottom: 3vh;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 2vh 0;
+    padding: 1vh;
+    outline: none;
+    background-color: #292b2c;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: white;
+}
+
+.btn {
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
+    width: 90%;
+    max-height: 8vh;
+    align-self: center;
+}
+
+input[name="name"] {
+  max-height: 8vh;
+}
+
+textarea[name="message"] {
+    max-height: 15vh;        
+}
+
+@media only screen and (max-width: 1000px) {
+    ul {
+        padding: 12;
+    }
+
+    li {
+        padding: 4px 12px 8px 12px;
+    }
+
+    .main-nav {
+        font-size: 1.05em;
+    }
+     .logoIcon {
+        height: 32px;
+        width: 32px;
+    }
+
+    .navbarLogo {
+        height: 25px;
+        width: 25px;
+    }
+
+    .rightElement {
+    margin: 0 12px 0  0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        padding: 0;
+    }
+
+    li {
+        padding: 1px 6px 0px 6px;
+    }
+
+    .main-nav {
+        font-size: .85em;
+    }
+
+    .logoIcon {
+        height: 27px;
+        width: 27px;
+    }
+
+    .navbarLogo {
+        height: 20px;
+        width: 20px;
+   }
+
+    .rightElement {
+        margin: 0;
+    }
+
+    form {
+        padding: 2vw 4vw;
+        width: 80%;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    form input, form textarea {
+        border: 0;
+        outline: none;
+        background-color: #292b2c;
+        font-size: .8em;
+        font-weight: 600;
+        color: white;
+    }
+
+
+    .btn {
+        width: 90%;
+        align-self: center;
+        font-size: .8em;
+    }
+}
