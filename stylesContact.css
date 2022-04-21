@@ -120,7 +120,7 @@ textarea[name="message"] {
     max-height: 15vh;        
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px), (max-height: 600px) {
     ul {
         padding: 12;
     }
@@ -144,6 +144,10 @@ textarea[name="message"] {
 
     .rightElement {
     margin: 0 12px 0  0;
+    }
+    
+    footer {
+        font-size: 2vw;
     }
 }
 
@@ -198,4 +202,9 @@ textarea[name="message"] {
         align-self: center;
         font-size: .8em;
     }
+
+        
+    footer {
+        font-size: .73em;
+    } 
 }

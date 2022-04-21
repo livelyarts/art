@@ -82,7 +82,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px), (max-height: 600px) {
     ul {
         padding: 12;
     }
@@ -106,6 +106,10 @@ footer {
 
     .rightElement {
     margin: 0 12px 0  0;
+    }
+
+    footer {
+        font-size: 2vw;
     }
 }
 
@@ -134,5 +138,9 @@ footer {
 
     .rightElement {
         margin: 0;
+    }
+
+    footer {
+        font-size: 1.73vh;
     }
 }

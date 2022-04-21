@@ -283,7 +283,7 @@ footer {
     padding: .5vh 0 .5vh 0;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px), (max-height: 600px) {
     ul {
         padding: 12;
     }
@@ -311,6 +311,10 @@ footer {
 
     .modal p {
         font-size: 1.7rem;
+    }
+
+    footer {
+        font-size: 2vw;
     }
 }
 
@@ -367,5 +371,9 @@ footer {
 
     .modal p {
         font-size: 1.3rem;
+    }
+
+    footer {
+        font-size: 1.73vh;
     }
 }
